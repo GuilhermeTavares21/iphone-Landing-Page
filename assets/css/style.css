@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    background-color:rgb(206, 204, 204);
+    border-bottom: 1px solid rgba(143, 141, 141, 0.342);
+}
+
+.container {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    width: 33px;
+    object-fit: cover;
+}
+
+#navHeader ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#navHeader a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 755px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+
+.textIntroduction {
+    height: 40%;
+    margin-top: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iphonePhoto {
+    height: 36%;
+    background-image: url('/assets/img/iphone.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:50%;
+    width: 100%;
+    
+}
+
+section #ad {
+    display: flex;
+}
+
+.adMain {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color:rgb(223, 221, 221);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adMain a {
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.textIntroduction h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-shadow: 0px 1px 4px gray;
+}
+
+.textIntroduction h3 {
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    margin-bottom:40px ;
+}
+
+.textIntroduction button {
+    width: 90px;
+    padding: 17px;
+    border-radius: 20px;
+    background-color:#2997ff; ;
+    color: #ffffff;
+    font-size: 14px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.textIntroduction button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.specs {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 1255px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+}
+
+.specsInfo {
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.widget {
+    flex:1;
+    border: 2px solid black;
+    margin: 2px;
+    margin-top: 60px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+}
+
+.widgetImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.widgetTitle {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(97, 97, 97);
+    stroke: 1px black;
+}
+
+.widgetInfo {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(97, 97, 97);
+    stroke: 1px black;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.imgSpecs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 1px solid gray;
+}
+
+.imgSpecs2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+
+.imgSpec_1 img {
+    width: 500px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+.imgSpec_2 img {
+    width: 290px;
+
+}
